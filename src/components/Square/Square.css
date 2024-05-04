@@ -1,0 +1,20 @@
+.square {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black {
+  background-color: #b58863; /* Dark color for black square */
+}
+
+.white {
+  background-color: #f0d9b5; /* Light color for white square */
+}
+
+.square.highlight {
+  background-color: #aaddaa; /* or any other highlight color */
+}
+  

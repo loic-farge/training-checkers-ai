@@ -1,0 +1,23 @@
+.game-control {
+  margin-bottom: 20px;
+}
+
+.current-player {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.restart-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.restart-button:hover {
+  background-color: #0056b3;
+}

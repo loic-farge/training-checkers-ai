@@ -1,0 +1,34 @@
+.piece {
+  width: 80%; /* Adjust size as necessary */
+  height: 80%; /* Adjust size as necessary */
+  border-radius: 50%; /* Makes the piece circular */
+  margin: 5%; /* Centers the piece in the square */
+}
+
+.player-1 {
+  background-color: #fff; /* Color for player 1's pieces */
+}
+
+.player-2 {
+  background-color: #000; /* Color for player 2's pieces */
+}
+
+.player-1.piece.king {
+  background-image: url('crown-icon-white.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.player-2.piece.king {
+  background-image: url('crown-icon-black.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.piece.selected {
+  border: 2px solid #ffde00; /* Yellow border for selection */
+  box-shadow: 0 0 10px #ffde00; /* Optional: add a glow effect */
+}
+  
